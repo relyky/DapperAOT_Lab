@@ -3,9 +3,7 @@ using DapperAOT_Lab.Services;
 using DapperAOT_Lab;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Dapper;
-
-[module: DapperAot]
+using DapperBiz;
 
 IConfiguration config = new ConfigurationBuilder()
     .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
@@ -15,6 +13,7 @@ IConfiguration config = new ConfigurationBuilder()
 var builder = CoconaApp.CreateBuilder();
 
 builder.Services.AddScoped<RandomService>();
+builder.Services.AddScoped<DapperTestBiz>();
 
 var app = builder.Build();
 

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperAOT_Lab", "DapperAOT_Lab\DapperAOT_Lab.csproj", "{3D40442B-07D7-438F-862B-8190E43741E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperAOT_Lab", "DapperAOT_Lab\DapperAOT_Lab.csproj", "{3D40442B-07D7-438F-862B-8190E43741E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DBHelper", "DBHelper\DBHelper.csproj", "{F64DE577-A0B8-486C-9A3D-7FB61687A03C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperBiz", "DapperBiz\DapperBiz.csproj", "{058E5C35-08BF-45DD-9DE2-DB06DE955BB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{3D40442B-07D7-438F-862B-8190E43741E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D40442B-07D7-438F-862B-8190E43741E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D40442B-07D7-438F-862B-8190E43741E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F64DE577-A0B8-486C-9A3D-7FB61687A03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64DE577-A0B8-486C-9A3D-7FB61687A03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64DE577-A0B8-486C-9A3D-7FB61687A03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64DE577-A0B8-486C-9A3D-7FB61687A03C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{058E5C35-08BF-45DD-9DE2-DB06DE955BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{058E5C35-08BF-45DD-9DE2-DB06DE955BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{058E5C35-08BF-45DD-9DE2-DB06DE955BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{058E5C35-08BF-45DD-9DE2-DB06DE955BB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
