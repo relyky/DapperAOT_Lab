@@ -1,3 +1,3 @@
 ﻿using Dapper;
 
-[module: DapperAot]
+[module: DapperAot(true)]
