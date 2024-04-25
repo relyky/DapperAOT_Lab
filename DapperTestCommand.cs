@@ -1,6 +1,5 @@
 ﻿using Cocona;
 using Dapper;
-using Dapper.AOT;
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -36,8 +35,9 @@ class DapperTestCommand(IConfiguration _config)
     await conn.OpenAsync();
     Console.WriteLine($"開啟連線");
 
-
-    
+    const string sql = "SELECT TOP 1 * FROM MyData";
+    var info = conn.QueryFirst<MyData>(sql);
+    Console.WriteLine(info);
   }
 }
 

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DapperAOT_Lab": {
+      "commandName": "Project",
+      "commandLineArgs": "conn"
+    }
+  }
+}
